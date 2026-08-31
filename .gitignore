@@ -1,0 +1,5 @@
+target/
+#só pra deixar salvo A pasta target/ é o diretório onde o Maven 
+#(uma ferramenta de automação e gerenciamento de projetos Java) 
+#coloca todos os arquivos gerados automaticamente durante
+#o processo de compilação e construção (build) do seu código.

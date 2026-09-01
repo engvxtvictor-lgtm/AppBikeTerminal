@@ -14,13 +14,8 @@ public class AppBikeTerminal {
     Scanner entrada = new Scanner(System.in);
     
     System.out.println("Salve, informe o numero da matricula, por favor!");
-    
     int matricula  =  entrada.nextInt();
     entrada.nextLine();
-    
-    
-   
-    
     
     System.out.println("Estacao : " + nomeEstacao); 
     System.out.println("Bicicletas disponiveis : " + quantidadeBikeDisponivel);    
@@ -38,5 +33,16 @@ public class AppBikeTerminal {
     double valorCorrida = tempoUso * tarifaPorMinuto;
     System.out.printf("Valor total da corrida %.2f", valorCorrida);
 
+    System.out.println("========================================");
+    System.out.println("Recibo de uso - AppBike");
+    System.out.println("========================================");
+    
+    System.out.println("Matricula : " + matricula);
+    System.out.println("Estacao : " + nomeEstacao); 
+    System.out.println("Estacao de destino: "+ estacaoDestino);
+    System.out.println("Estimativa de tempo de uso: "+ tempoUso);
+    System.out.printf("Valor total da corrida %.2f", valorCorrida);
+    System.out.println("========================================");
+    System.out.println("Tmj, espero que tenha gostado!\n valeu por usar o AppBike");
     }
 }
